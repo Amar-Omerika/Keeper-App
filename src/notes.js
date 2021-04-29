@@ -11,8 +11,8 @@ const notes = [
 	},
 	{
 		key: 3,
-		titel: "Arrays",
-		contetn: " Why am i doing this",
+		title: "Loops",
+		content: " Doing something ",
 	},
 ];
 
