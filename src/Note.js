@@ -15,3 +15,5 @@ const notes = [
 		contetn: " Why am i doing this",
 	},
 ];
+
+export default notes;
