@@ -4,12 +4,18 @@ function CreateArea() {
 		title: "",
 		content: "",
 	});
-
+	function handleChange(event) {}
 	return (
 		<div>
 			<form>
-				<input value={note.title} placeholder="Title" name="title" />
+				<input
+					onChange={handleChange}
+					value={note.title}
+					placeholder="Title"
+					name="title"
+				/>
 				<textarea
+					onChange={handleChange}
 					value={note.content}
 					name="content"
 					placeholder="Take a note..."
