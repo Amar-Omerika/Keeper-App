@@ -4,7 +4,15 @@ function CreateArea() {
 		title: "",
 		content: "",
 	});
-	function handleChange(event) {}
+	function handleChange(event) {
+		const { name, value } = event.target;
+		setNote((prevNote) => {
+			return {
+				...prevNote,
+				[name]: value,
+			};
+		});
+	}
 	return (
 		<div>
 			<form>
