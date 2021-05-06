@@ -51,7 +51,7 @@ function CreateArea(props) {
 					placeholder="Take a note..."
 					rows={isExpanded ? 3 : 1}
 				/>
-				<Zoom in={true}>
+				<Zoom in={isExpanded}>
 					<Fab onClick={submitNote}>
 						<AddIcon />
 					</Fab>
